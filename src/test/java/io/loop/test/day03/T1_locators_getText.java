@@ -20,7 +20,7 @@ public class T1_locators_getText {
        WebDriver driver = WebDriverUtil.getDriver(DocuportConstants.BROWSER);
        driver.manage().window().maximize();
         driver.get("https://www.google.com");
-        driver.get(DocuportConstants.DOCUPOER_TEST);
+        driver.get(DocuportConstants.DOCUPORT_TEST);
 
         WebElement username = driver.findElement(By.id("input-14"));
         username.sendKeys(DocuportConstants.USERNAME_CLIENT);
