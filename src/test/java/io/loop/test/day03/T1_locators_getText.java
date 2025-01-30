@@ -23,7 +23,7 @@ public class T1_locators_getText {
         driver.get(DocuportConstants.DOCUPORT_TEST);
 
         WebElement username = driver.findElement(By.id("input-14"));
-        username.sendKeys(DocuportConstants.USERNAME_CLIENT);
+        username.sendKeys(DocuportConstants.USERNAME_CLIENT_GROUP1);
         WebElement loginButton = driver.findElement(By.className("v-btn__content"));
         loginButton.click();
 
