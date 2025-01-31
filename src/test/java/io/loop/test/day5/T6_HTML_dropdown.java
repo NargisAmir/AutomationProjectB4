@@ -29,7 +29,6 @@ public class T6_HTML_dropdown {
 
 
 
-
     }
     @Test
     public void htmlDropdown() {
